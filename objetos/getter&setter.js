@@ -18,13 +18,14 @@ console.log('*************************************');
 let Pessoa1 = {
     nome: "Gabrie",
     idade: 20,
-    naturalizacao: "Bolivia",
+    naturalizacao: "Teste",
 
     get natureza() {
         return this.naturalizacao
     }
 }
 
+console.log(Pessoa1.natureza);
 console.log(Pessoa1.naturalizacao);
 
 console.log('--------------------------------------------------');
@@ -35,8 +36,8 @@ let Pessoa2 = {
     idade: 20,
     naturalizacao: "",
 
-    set natureza(pais) {
-        this.naturalizacao = pais;
+    set natureza(_pais) {
+        this.naturalizacao = _pais;
     }
 }
 
