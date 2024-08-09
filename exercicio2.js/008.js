@@ -3,9 +3,9 @@ const multiplicar = (numeroA, numeroB) => {
 
     for(let i = 0; i < numeroB; i++) {
         resultado += numeroA;
-        return resultado
     }
+    console.log(resultado);
 }
 
-const res = multiplicar(5, 5);
-console.log(res);
+multiplicar(5, 5);
+multiplicar(0,7);
